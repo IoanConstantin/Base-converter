@@ -1,0 +1,27 @@
+-------------------------------- IOCLA - TEMA 1 --------------------------------
+================================================================================
+
+ -> Impartim fiecare element din vector la baza corespunzatoare, in cazul 
+    in care baza este valida, adica un numar natural in intervalul [2, 16] 
+    
+ -> Punem primul rest pe stiva dupa ce am construit reprezentarea sa in ASCII
+
+ -> Pentru resturile din intervalul [0, 9] se adauga 48 pentru a se obtine 
+    codul ASCII, iar pentru resturile din intervalul [10, 15] se adauga 87
+
+ -> Verificam daca catul impartirii poate fi reprezentat pe cel mult 16 biti,
+    respectiv pe cel mult 8 biti
+
+ -> In caz afirmativ repetam operatiile pentru impartirea la un numar de 16 biti,
+    respectiv la un numar de 8 biti
+
+ -> De fiecare data testam daca catul este diferit de 0 pentru a trece la
+    urmatorul numar care trebuie convertit
+
+ -> La final luam resturile de pe stiva, realizand astfel afisarea acestora in
+    ordinea inversa a punerii lor pe stiva
+
+ -> Am numarat push-urile, pentru a realiza pop de acelasi numar de ori
+
+ -> Daca ne aflam pe ultima pozitie a vectorului printam newline si iesim
+    din program
